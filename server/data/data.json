@@ -1,0 +1,60 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "Dragapult",
+      "owner": "Reuben",
+      "image": "",
+      "link": "https://pokemondb.net/pokedex/dragapult"
+    },
+    {
+      "id": 2,
+      "name": "Greninja",
+      "owner": "Reuben",
+      "image": "",
+      "link": "https://pokemondb.net/pokedex/greninja"
+    },
+    {
+      "id": 3,
+      "name": "Yungoos",
+      "owner": "Ado",
+      "image": "",
+      "link": "https://pokemondb.net/pokedex/yungoos"
+    },
+    {
+      "id": 4,
+      "name": "Smoliv",
+      "owner": "Ado",
+      "image": "",
+      "link": "https://pokemondb.net/pokedex/smoliv"
+    },
+    {
+      "id": 5,
+      "name": "Charmander",
+      "owner": "Gerard",
+      "image": "",
+      "link": "https://pokemondb.net/pokedex/charmander"
+    },
+    {
+      "id": 6,
+      "name": "Scyther",
+      "owner": "Gerard",
+      "image": "",
+      "breed": "https://pokemondb.net/pokedex/scyther"
+    },
+    {
+      "id": 7,
+      "name": "Squirtle",
+      "owner": "Lou",
+      "image": "",
+      "link": "https://pokemondb.net/pokedex/squirtle"
+    },
+    {
+      "id": 8,
+      "name": "Snorlax",
+      "owner": "Lou",
+      "image": "",
+      "link": "https://pokemondb.net/pokedex/snorlax"
+    }
+  ]
+}
