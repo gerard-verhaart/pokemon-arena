@@ -61,22 +61,26 @@
     {
       "id": 1,
       "name": "Reuben",
-      "team": "Team Steel"
+      "team": "Team Steel",
+      "motto": "To unite all peoples within our nation!"
     },
     {
       "id": 2,
       "name": "Ado",
-      "team": "ABC Team"
+      "team": "ABC Team",
+      "motto": "To protect the world from devastation"
     },
     {
       "id": 3,
       "name": "Gerard",
-      "team": "Team Rocket"
+      "team": "Team Rocket",
+      "motto": "Blasting off at the speed of light!"
     },
     {
       "id": 4,
       "name": "Lou",
-      "team": "Team Underestimated"
+      "team": "Team Underestimated",
+      "motto": "To extend our reach to the stars above!"
     }
   ]
 }
