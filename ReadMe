@@ -38,10 +38,10 @@ THURSDAY
 [Y] Planning: MVP identified and thursday evening tasks decided and assigned:
 [Y] Two pokemon chosen each and slacked to gerard
 [Y] Create repo , post in slack (reubs)
-[ ] Set up documents and structure (?)
-[ ] Code basics within Server and Index pages (Ado)
-[ ] Code data in JSON file (Gerard)
-[ ] Write up this read me form and the tech requirements decided on in planning for both MVP and stretch.
+[Y] Set up documents and structure (?)
+[Y] Code basics within Server and Index pages (Ado)
+[Y] Code data in JSON file (Gerard)
+[Y] Write up this read me form and the tech requirements decided on in planning for both MVP and stretch.
 
 ### 3. Friday Tasks (UNASSIGNED)
 [ ] Review MVP requirements (ALL)
@@ -49,9 +49,9 @@ THURSDAY
 [ ] Create CSS and nominated files e.g. home, pokemon-profile, owner-profile
 [ ] Decide and assign coding tasks.
 [ ] Create branches based on coding tasks.
-[ ] Code server routes
+[ ] Code server routes (Ado and Reubs)
 [ ] Code pokemon-profile routes
-[ ] Code owner-profile routes
+[ ] Code owner-profile routes (Lou)
 [ ] Set up project in Dokku (live server action)
 
 
@@ -81,9 +81,9 @@ Pokemon profile page
 
 Owner profiles
 [ ] Must display owner name as title
-[ ] Must display owner picture
 [ ] Must display basic owner information (DECIDE: what?)
 [ ] Must display the 2 pokemon owned
+[ ] STRETCH: Must display owner picture
 [ ] STRETCH: Must be able to link back to pokemon profile page. 
 
 
@@ -96,6 +96,4 @@ Owner profiles
 
 ### ----RUNNING QUESTIONS FOR THE TEAM-----
 
-Lou - rename the files for the layouts to the page names? i.e. home, pokemon-profile, owner-profile
-Lou - read through MVP requirements including DECIDE and STRETCH to make sure we are happy with MVP
-Lou - gitHub branch issue :( 
+ 
