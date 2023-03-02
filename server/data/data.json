@@ -5,6 +5,13 @@
       "name": "Dragapult",
       "ownerid": 1,
       "image": "/images/dragapult.jpg",
+      "types": ["Dragon", "Ghost"],
+      "species": "Stealth Pokemon",
+      "height": "3.0 m",
+      "weight": "50.0 kg",
+      "japanese-name": "ドラパルト",
+      "popularity": 5,
+      "power": 80,
       "link": "https://pokemondb.net/pokedex/dragapult"
     },
     {
@@ -12,6 +19,13 @@
       "name": "Greninja",
       "ownerid": 1,
       "image": "/images/greninja.jpg",
+      "types": ["Water", "Dark"],
+      "species": "Ninja Pokemon",
+      "height": "1.5 m",
+      "weight": "40.0 kg",
+      "japanese-name": "ゲッコウガ",
+      "popularity": 6,
+      "power": 55,
       "link": "https://pokemondb.net/pokedex/greninja"
     },
     {
@@ -19,6 +33,13 @@
       "name": "Yungoos",
       "ownerid": 2,
       "image": "/images/yungoos.jpg",
+      "types": ["Normal"],
+      "species": "Loitering Pokemon",
+      "height": "0.4 m",
+      "weight": "6.0 kg",
+      "japanese-name": "ヤングース",
+      "popularity": 2,
+      "power": 20,
       "link": "https://pokemondb.net/pokedex/yungoos"
     },
     {
@@ -26,6 +47,13 @@
       "name": "Smoliv",
       "ownerid": 2,
       "image": "/images/smoliv.jpg",
+      "types": ["Grass", "Normal"],
+      "species": "Olive Pokemon",
+      "height": "0.3 m",
+      "weight": "6.5 kg",
+      "japanese-name": "ミニーブ",
+      "popularity": 3,
+      "power": 15,
       "link": "https://pokemondb.net/pokedex/smoliv"
     },
     {
@@ -33,6 +61,13 @@
       "name": "Charmander",
       "ownerid": 3,
       "image": "/images/charmander.jpg",
+      "types": ["Fire"],
+      "species": "Lizard Pokemon",
+      "height": "0.6 m",
+      "weight": "8.5 kg",
+      "japanese-name": "ヒトカゲ",
+      "popularity": 8,
+      "power": 30,
       "link": "https://pokemondb.net/pokedex/charmander"
     },
     {
@@ -40,6 +75,13 @@
       "name": "Scyther",
       "ownerid": 3,
       "image": "/images/scyther.jpg",
+      "types": ["Bug", "Flying"],
+      "species": "Mantis Pokemon",
+      "height": "1.5 m",
+      "weight": "56.0 kg",
+      "japanese-name": "ストライク",
+      "popularity": 3,
+      "power": 70,
       "breed": "https://pokemondb.net/pokedex/scyther"
     },
     {
@@ -47,6 +89,13 @@
       "name": "Squirtle",
       "ownerid": 4,
       "image": "/images/squirtle.jpg",
+      "types": ["Water"],
+      "species": "Tiny Turtle Pokemon",
+      "height": "0.5 m",
+      "weight": "9.0 kg",
+      "japanese-name": "ゼニガメ",
+      "popularity": 10,
+      "power": 30,
       "link": "https://pokemondb.net/pokedex/squirtle"
     },
     {
@@ -54,6 +103,13 @@
       "name": "Snorlax",
       "ownerid": 4,
       "image": "/images/snorlax.jpg",
+      "types": ["Normal"],
+      "species": "Sleeping Pokemon",
+      "height": "2.1 m",
+      "weight": "460.0 kg",
+      "japanese-name": "カビゴン",
+      "popularity": 8,
+      "power": 75,
       "link": "https://pokemondb.net/pokedex/snorlax"
     }
   ],
