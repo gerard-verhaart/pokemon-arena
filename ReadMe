@@ -1,0 +1,100 @@
+# THE POKEMON ARENA
+
+Product: This website will present a gallery of pokemon on the home page. You can select a pokemen and be taken to that pokemons profile page. That page will show that pokemons stats and details about that owner. 
+If you choose you can click into the owner to learn more about them and the pokemen they own. 
+
+As a team we are actively choosing a straight forward project and one that we can reference prior code to get us in the flow of working as a team. Our intention is to build an MVP first and then build stretch features on top.
+
+### 1. Team Roles
+
+All of the team will look to support each other in their roles. Roles are to ensure that things run smoothly and that there is control within the team. 
+
+   Team VibeMan: (Gerard) to actively keep an eye on the team 'vibe'. Making sure that no-one is left out of the process and identifying and managing extreme vibes 
+
+   GitHub Manager: (Reubs) manages the set up of and is responsible for git up branches merge and requests. Importantly this role is not a stand alone role e.g. it will not be just Reubs responsibility to review code. 
+
+   SpokesPerson: (Ado) will take responsibility for the plan out and organise the presentation of the product. Can delegate roles. 
+
+   Communications facilitator: Will help facilitate team conversations to ensure forward movement and deep coverage.
+
+
+### 2. Team norms
+[ ] Pair programming and some group work
+[ ] Everyone wants to work on routes, Gerard wants to work on the data side. 
+[ ] Everyone wants to look at the testing stretch if we get the chance
+[ ] Lunch on Friday will be a max of 45mins or shorter if all decided.
+[ ] We all agree that we will communicate and be vocal with each other to ensure clarity and comfort with the project moving forward.
+[ ] There will always be 'a non-involved' person tasked with reviewing code before it is pushed to main
+
+
+Rough overarching roll out plan: 
+- Create MVP that is live on server and all MVP are met/tested
+- Team meeting checkin to decide on stretch
+- Assign stretch features
+- Build build build
+
+### 3. Thursday Tasks
+THURSDAY 
+[Y] Planning: MVP identified and thursday evening tasks decided and assigned:
+[Y] Two pokemon chosen each and slacked to gerard
+[Y] Create repo , post in slack (reubs)
+[ ] Set up documents and structure (?)
+[ ] Code basics within Server and Index pages (Ado)
+[ ] Code data in JSON file (Gerard)
+[ ] Write up this read me form and the tech requirements decided on in planning for both MVP and stretch.
+
+### 3. Friday Tasks (UNASSIGNED)
+[ ] Review MVP requirements (ALL)
+[ ] Agree on a roll out plan i.e. order/sequence of build (ALL)
+[ ] Create CSS and nominated files e.g. home, pokemon-profile, owner-profile
+[ ] Decide and assign coding tasks.
+[ ] Create branches based on coding tasks.
+[ ] Code server routes
+[ ] Code pokemon-profile routes
+[ ] Code owner-profile routes
+[ ] Set up project in Dokku (live server action)
+
+
+
+### 4. MVP requirements
+Overall / each page
+[ ] Must display overall way of navigating website e.g. nav bar or links to pages.
+[ ] STRETCH: Must display footer
+[ ] STRETCH: Must meet basic WCAG guidelines e.g. contrast, alt text etc
+
+Gallery (home) 
+[ ] Must display a h1 title e.g. 'Pokemon Arena'
+[ ] Must display a subtitle e.g. 'Welcome to the battle field'
+[ ] Must display 8 pokemon tiles (pictures of pokemon)
+[ ] Each pokemon tile must have the associated pokemon name beside it
+[ ] DECIDE: Must be able to navigate to each pokemons profile page by clicking on the image and/or link to profile
+
+Pokemon profile page
+[ ] Must display pokemon name as title
+[ ] Must display main pokemon picture
+[ ] Must display basic pokemon stats (DECIDE: Min 3 / Max 5)
+[ ] Must display owner details
+[ ] Must be able to link to owners profile
+[ ] DECIDE: Must display catch phrase
+[ ] STRETCH: Ability to 'like' pokemon profile
+[ ] STRETCH: bulk out stats and potentially include more dynamic extras e.g. fav sound
+
+Owner profiles
+[ ] Must display owner name as title
+[ ] Must display owner picture
+[ ] Must display basic owner information (DECIDE: what?)
+[ ] Must display the 2 pokemon owned
+[ ] STRETCH: Must be able to link back to pokemon profile page. 
+
+
+### 5. Stretch ideas
+[ ] Vote 'like' function - this can potentially decide our 'battle' match ups
+[ ] Edit profile detais (pokemon and owner)
+[ ] Writing some tests (all)
+[ ] Sounds and music
+[ ] Nav bar
+
+### ----RUNNING QUESTIONS FOR THE TEAM-----
+
+Lou - rename the files for the layouts to the page names? i.e. home, pokemon-profile, owner-profile
+Lou - read through MVP requirements including DECIDE and STRETCH to make sure we are happy with MVP
