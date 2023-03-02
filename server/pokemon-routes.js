@@ -8,7 +8,7 @@ router.get('/:id', (req, res) => {
   const idNumber = Number(req.params.id)
   console.log(idNumber)
 
-  fs.readFile(__dirname + '/data.json', 'utf-8')
+  fs.readFile(__dirname + '/data/data.json', 'utf-8')
 
     .then((data) => {
       const parsedInfo = JSON.parse(data)
