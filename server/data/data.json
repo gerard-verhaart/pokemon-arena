@@ -3,58 +3,80 @@
     {
       "id": 1,
       "name": "Dragapult",
-      "owner": "Reuben",
-      "image": "",
+      "ownerid": 1,
+      "image": "/images/dragapult.jpg",
       "link": "https://pokemondb.net/pokedex/dragapult"
     },
     {
       "id": 2,
       "name": "Greninja",
-      "owner": "Reuben",
-      "image": "",
+      "ownerid": 1,
+      "image": "/images/greninja.jpg",
       "link": "https://pokemondb.net/pokedex/greninja"
     },
     {
       "id": 3,
       "name": "Yungoos",
-      "owner": "Ado",
-      "image": "",
+      "ownerid": 2,
+      "image": "/images/yungoos.jpg",
       "link": "https://pokemondb.net/pokedex/yungoos"
     },
     {
       "id": 4,
       "name": "Smoliv",
-      "owner": "Ado",
-      "image": "",
+      "ownerid": 2,
+      "image": "/images/smoliv.jpg",
       "link": "https://pokemondb.net/pokedex/smoliv"
     },
     {
       "id": 5,
       "name": "Charmander",
-      "owner": "Gerard",
-      "image": "",
+      "ownerid": 3,
+      "image": "/images/charmander.jpg",
       "link": "https://pokemondb.net/pokedex/charmander"
     },
     {
       "id": 6,
       "name": "Scyther",
-      "owner": "Gerard",
-      "image": "",
+      "ownerid": 3,
+      "image": "/images/scyther.jpg",
       "breed": "https://pokemondb.net/pokedex/scyther"
     },
     {
       "id": 7,
       "name": "Squirtle",
-      "owner": "Lou",
-      "image": "",
+      "ownerid": 4,
+      "image": "/images/squirtle.jpg",
       "link": "https://pokemondb.net/pokedex/squirtle"
     },
     {
       "id": 8,
       "name": "Snorlax",
-      "owner": "Lou",
-      "image": "",
+      "ownerid": 4,
+      "image": "/images/snorlax.jpg",
       "link": "https://pokemondb.net/pokedex/snorlax"
+    }
+  ],
+  "owners": [
+    {
+      "id": 1,
+      "name": "Reuben",
+      "team": "Team Steel"
+    },
+    {
+      "id": 2,
+      "name": "Ado",
+      "team": "ABC Team"
+    },
+    {
+      "id": 3,
+      "name": "Gerard",
+      "team": "Team Rocket"
+    },
+    {
+      "id": 4,
+      "name": "Lou",
+      "team": "Team Underestimated"
     }
   ]
 }
