@@ -1,10 +1,20 @@
-<p>Halo</p>
 
-<div class="container">
+{{!-- <div class="container">
   {{#each pokemon}}
   <div class="pokemon-list">
     <a href="/pokemon/{{id}}"><img class="img-circle" src="{{image}}" alt="{{name}}"></a>
     <h2>{{name}}</h2>
+  </div>
+  {{/each}}
+</div> --}}
+
+<div class="card-container">
+  {{#each pokemon}}
+  <div class="card">
+    <div class="front">
+      <a href="/pokemon/{{id}}"><img class="img-edit" src="{{image}}" alt="{{name}}"></a>
+      <h2>{{name}}</h2>
+    </div>
   </div>
   {{/each}}
 </div>
