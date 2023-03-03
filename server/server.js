@@ -5,8 +5,6 @@ const ownerRoute = require('./owner-routes.js')
 const pokemonRoute = require('./pokemon-routes.js')
 
 const server = express()
-server.use('/owner', ownerRoute)
-server.use('/pokemon', pokemonRoute)
 
 // Server configuration
 const publicFolder = __dirname + '/public'
@@ -18,6 +16,8 @@ server.engine('hbs', hbs.engine({ extname: 'hbs' }))
 server.set('view engine', 'hbs')
 server.set('views', __dirname + '/views')
 
+server.use('/owner', ownerRoute)
+server.use('/pokemon', pokemonRoute)
 // Your routes/router(s) should go here
 server.get('/', (req, res) => {
   fs.readFile(__dirname + '/data/data.json', 'utf-8')

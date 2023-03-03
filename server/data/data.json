@@ -5,7 +5,10 @@
       "name": "Dragapult",
       "ownerid": 1,
       "image": "/images/dragapult.jpg",
-      "types": ["Dragon", "Ghost"],
+      "types": [
+        "Dragon",
+        "Ghost"
+      ],
       "species": "Stealth Pokemon",
       "height": "3.0 m",
       "weight": "50.0 kg",
@@ -16,24 +19,61 @@
     },
     {
       "id": 2,
-      "name": "Greninja",
+      "name": "Lame",
       "ownerid": 1,
       "image": "/images/greninja.jpg",
-      "types": ["Water", "Dark"],
+      "types": [
+        "Water",
+        "Dark"
+      ],
       "species": "Ninja Pokemon",
       "height": "1.5 m",
       "weight": "40.0 kg",
       "japanese-name": "ゲッコウガ",
-      "popularity": 6,
-      "power": 55,
-      "link": "https://pokemondb.net/pokedex/greninja"
+      "popularity": "6",
+      "power": "55",
+      "link": "https://pokemondb.net/pokedex/greninja",
+      "owner": {
+        "id": 1,
+        "name": "Reuben",
+        "team": "Team Steel",
+        "motto": "To unite all peoples within our nation!"
+      },
+      "owners": [
+        {
+          "id": 1,
+          "name": "Reuben",
+          "team": "Team Steel",
+          "motto": "To unite all peoples within our nation!"
+        },
+        {
+          "id": 2,
+          "name": "Ado",
+          "team": "ABC Team",
+          "motto": "To protect the world from devastation"
+        },
+        {
+          "id": 3,
+          "name": "Gerard",
+          "team": "Team Rocket",
+          "motto": "Blasting off at the speed of light!"
+        },
+        {
+          "id": 4,
+          "name": "Lou",
+          "team": "Team Underestimated",
+          "motto": "To extend our reach to the stars above!"
+        }
+      ]
     },
     {
       "id": 3,
       "name": "Yungoos",
       "ownerid": 2,
       "image": "/images/yungoos.jpg",
-      "types": ["Normal"],
+      "types": [
+        "Normal"
+      ],
       "species": "Loitering Pokemon",
       "height": "0.4 m",
       "weight": "6.0 kg",
@@ -47,7 +87,10 @@
       "name": "Smoliv",
       "ownerid": 2,
       "image": "/images/smoliv.jpg",
-      "types": ["Grass", "Normal"],
+      "types": [
+        "Grass",
+        "Normal"
+      ],
       "species": "Olive Pokemon",
       "height": "0.3 m",
       "weight": "6.5 kg",
@@ -61,7 +104,9 @@
       "name": "Charmander",
       "ownerid": 3,
       "image": "/images/charmander.jpg",
-      "types": ["Fire"],
+      "types": [
+        "Fire"
+      ],
       "species": "Lizard Pokemon",
       "height": "0.6 m",
       "weight": "8.5 kg",
@@ -75,7 +120,10 @@
       "name": "Scyther",
       "ownerid": 3,
       "image": "/images/scyther.jpg",
-      "types": ["Bug", "Flying"],
+      "types": [
+        "Bug",
+        "Flying"
+      ],
       "species": "Mantis Pokemon",
       "height": "1.5 m",
       "weight": "56.0 kg",
@@ -89,7 +137,9 @@
       "name": "Squirtle",
       "ownerid": 4,
       "image": "/images/squirtle.jpg",
-      "types": ["Water"],
+      "types": [
+        "Water"
+      ],
       "species": "Tiny Turtle Pokemon",
       "height": "0.5 m",
       "weight": "9.0 kg",
@@ -103,7 +153,9 @@
       "name": "Snorlax",
       "ownerid": 4,
       "image": "/images/snorlax.jpg",
-      "types": ["Normal"],
+      "types": [
+        "Normal"
+      ],
       "species": "Sleeping Pokemon",
       "height": "2.1 m",
       "weight": "460.0 kg",
