@@ -15,6 +15,9 @@ router.get('/:id', (req, res) => {
       const pokeMatch = parsedInfo.pokemon.find(
         (element) => element.id === idNumber
       )
+      pokeMatch.owner = parsedInfo.owners.find(
+        (el) => el.id === pokeMatch.ownerid
+      )
       res.render('pokemon-profile', pokeMatch)
     })
 
