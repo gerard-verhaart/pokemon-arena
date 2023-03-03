@@ -4,7 +4,7 @@ const fs = require('node:fs/promises')
 const ownerRoute = require('./owner-routes.js')
 
 const server = express()
-server.use('/pokemon/', ownerRoute)
+server.use('/owner', ownerRoute)
 
 // Server configuration
 const publicFolder = __dirname + '/public'
@@ -28,3 +28,5 @@ server.get('/', (req, res) => {
 })
 
 module.exports = server
+
+TEST
