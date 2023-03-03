@@ -105,3 +105,13 @@ body {
   object-fit: scale-down;
 
 }
+
+.big-container{
+  background-color: lightblue;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

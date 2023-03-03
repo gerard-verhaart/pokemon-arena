@@ -1,10 +1,31 @@
-<div class="owner">
+<div class="big-container">
+  <div class="owner">
   {{!-- <img class="img-circle" src="{{image}}" alt="{{name}}"> --}}
-  <h2>{{name}}</h2>
+    <h2>{{name}}</h2>
   {{!-- need to add in pokemon stats to display below --}}
-  <div>Team: {{team}}</div>  
-  <div>Motto: {{motto}}</div>  
- 
-  {{!-- <a href="/pokemon-profile/{{id}}/edit">Edit</a> --}}
-  <a href="/">Home</a>
+    <div>Team: {{team}}</div>  
+    <div>Motto: {{motto}}</div> 
+    <div>Pokemon:
+      <div class="card-container">
+        {{#each pokemon}}
+        <div class="card">
+          <div class="front">
+            <a href="/pokemon/{{id}}"><img class="img-edit" src="{{image}}" alt="{{name}}"></a>
+            <h2>{{name}}</h2>
+          </div>
+        </div>
+        {{/each}}
+      </div>
 </div>
+  {{!-- <a href="/pokemon-profile/{{id}}/edit">Edit</a> --}}
+  </div>
+
+
+
+
+
+  </div>
+  <div class="container">
+    <a href="/">Home</a>
+  </div>
+  </div>

@@ -1,23 +1,28 @@
 const express = require('express')
+const router = express.Router()
 // const hbs = require('express-handlebars')
 const fs = require('node:fs/promises')
-
-const router = express.Router()
 
 console.log('this owner route is working')
 
 router.get('/:id', (req, res) => {
   const idNumber = Number(req.params.id)
+
   console.log(idNumber)
 
   fs.readFile(__dirname + '/data/data.json', 'utf-8')
 
     .then((data) => {
       const parsedInfo = JSON.parse(data)
-      const pokeMatch = parsedInfo.owners.find(
+      const ownerMatch = parsedInfo.owners.find(
         (element) => element.id === idNumber
       )
-      res.render('owner-profile', pokeMatch)
+      ownerMatch.pokemon = []
+      ownerMatch.pokemon = parsedInfo.pokemon.filter(
+        (el) => el.ownerid === idNumber
+      )
+
+      res.render('owner-profile', ownerMatch)
     })
 
     .catch((err) => {
