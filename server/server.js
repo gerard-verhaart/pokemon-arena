@@ -2,9 +2,11 @@ const express = require('express')
 const hbs = require('express-handlebars')
 const fs = require('node:fs/promises')
 const ownerRoute = require('./owner-routes.js')
+const pokemonRoute = require('./pokemon-routes.js')
 
 const server = express()
 server.use('/owner', ownerRoute)
+server.use('/pokemon', pokemonRoute)
 
 // Server configuration
 const publicFolder = __dirname + '/public'
