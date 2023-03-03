@@ -1,0 +1,48 @@
+<form class="form" action="/pokemon/{{id}}/edit" method="post">
+  <img class="img-circle" src="{{image}}" alt="{{name}}">
+
+  <p>   </p> 
+
+  <label for="name" class="form-item">
+    Name:
+    <input type="text" name="name" value="{{name}}">
+  </label>
+  
+  <label for="species" class="form-item">
+    Species: 
+    <input type="text" name="species" value="{{species}}">
+  </label>
+
+  <label for="height" class="form-item">
+    Height: 
+    <input type="text" name="height" value="{{height}}">
+  </label>
+
+  <label for="weight" class="form-item">
+    Weight: 
+    <input type="text" name="weight" value="{{weight}}">
+  </label>
+
+  <label for="popularity" class="form-item">
+    Popularity: 
+    <input type="text" name="popularity" value="{{popularity}}">
+  </label>
+
+  <label for="power" class="form-item">
+    Power: 
+    <input type="text" name="power" value="{{power}}">
+  </label>
+
+  <input type="hidden" name="image" value="{{image}}">
+  
+  <input type="submit" name="" value="Submit">
+</form>
+
+{{!-- <div>Type: {{types}}</div>
+  <div>Species: {{species}}</div>  
+  <div>Height: {{height}}</div>  
+  <div>Weight: {{weight}}</div> 
+  <div>Japanese Name: {{japanese-name}}</div>  
+  <div>Popularity: {{popularity}}</div> 
+  <div>Power: {{power}}</div> 
+  <div>Trainer: {{owner.name}}</div> --}}
