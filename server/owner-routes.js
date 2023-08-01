@@ -3,7 +3,7 @@ const router = express.Router()
 // const hbs = require('express-handlebars')
 const fs = require('node:fs/promises')
 
-console.log('this owner route is working')
+// console.log('this owner route is working')
 
 router.get('/:id', (req, res) => {
   const idNumber = Number(req.params.id)

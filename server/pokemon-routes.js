@@ -2,8 +2,7 @@ const express = require('express')
 const router = express.Router()
 const fs = require('node:fs/promises')
 
-console.log('this pokemon route is working')
-
+// console.log('this pokemon route is working')
 // router.get - for edit function
 router.get('/:id/edit', (req, res) => {
   const idNumber = Number(req.params.id)
@@ -66,10 +65,9 @@ router.post('/:id/edit', (req, res) => {
 
 router.get('/:id', (req, res) => {
   const idNumber = Number(req.params.id)
-  console.log(idNumber)
+  // console.log(idNumber)
 
   fs.readFile(__dirname + '/data/data.json', 'utf-8')
-
     .then((data) => {
       const parsedInfo = JSON.parse(data)
       const pokeMatch = parsedInfo.pokemon.find(
